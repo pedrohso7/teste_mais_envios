@@ -104,7 +104,7 @@ Os endpoints disponíveis são:
 </p>
 
 <ul>
-<br><pre>Upload `POST: /hang-tags/upload`</pre></br>
+<br>Upload <pre>POST: /hang-tags/upload</pre></br>
 <br><li>Create: `POST: /hang-tags`</li></br>
 <br><li>Update: `PATCH: /hang-tags/:id`</li></br>
 <br><li>GetAll: `GET: /hang-tags`</li></br>
