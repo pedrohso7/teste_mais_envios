@@ -71,6 +71,13 @@ Primeiro, é necessário que você clone o repositório e, em seguida, se certif
 ```
 cd teste_mais_envios
 ```
+<p align="justify">
+Esse repositório clonado é a raíz dos nossos dois projetos, que foram adicionados através dos submódulos do git. Em outras palavras, agora é necessário "clonar" o restante do projeto utilizando os comandos abaixo:
+</p>
+
+```git submodule init```
+
+```git submodule update```
 
 <p align="justify">
 Caso nao tenha o Docker e o Docker Compose já instaládos:
