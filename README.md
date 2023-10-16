@@ -77,6 +77,10 @@ Esse repositório clonado é a raíz dos nossos dois projetos, que foram adicion
 
 ```git submodule init```
 
+<p align="justify">
+Em seguida:
+</p>
+
 ```git submodule update```
 
 <p align="justify">
