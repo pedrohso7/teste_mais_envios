@@ -14,6 +14,7 @@
 </p>
 
 ## ✦ O projeto
+<h4>Objetivos</h4>
 <p align="justify">
 O objetivo do teste é construir uma API REST que deverá atender os seguintes critérios:
 <ul>
@@ -22,6 +23,7 @@ O objetivo do teste é construir uma API REST que deverá atender os seguintes c
 <li>Seja possível visualizar, atualizar e apagar as etiquetas via API Rest.</li>
 </ul>
 
+<h4>Critérios</h4>
 Em critérios de tecnologia, é esperado:
 <ul>
 <li>Teste seja feito em NodeJS</li>
@@ -32,15 +34,13 @@ Em critérios de tecnologia, é esperado:
 </ul>
 </p>
 
-<p align="justify">
-Authors:
-</p>
+<h4>Autor:</h4>
 <ul>
 <li>Pedro Oliveira</li>
 </ul>
 
 ## ✦ Tecnologias
-This O projeto was made using the tecnologies below:
+O projeto foi criado utilizando as tecnologias abaixo:
 - [NodeJs](https://nodejs.org/en)
 - [NestJs](https://nestjs.com/)
 - [Docker](https://www.docker.com/)
@@ -97,14 +97,14 @@ Para acessar a documentação do sistema, primeiro execute-o seguindo o tutorial
 </p>
 
 <p align="justify">
-Os endpoint disponíveis são:
+Os endpoints disponíveis são:
 </p>
 
 <ul>
-<li>Upload: ```POST: /hang-tags/upload```</li>
-<li>Create: ```POST: /hang-tags```</li>
-<li>Update: ```PATCH: /hang-tags/:id```</li>
-<li>GetAll: ```GET: /hang-tags```</li>
-<li>GetOne: ```GET: /hang-tags/:id```</li>
-<li>Delete: ```DELETE: /hang-tags/:id```</li>
+<br><li>Upload: ```POST: /hang-tags/upload```</li></br>
+<br><li>Create: ```POST: /hang-tags```</li></br>
+<br><li>Update: ```PATCH: /hang-tags/:id```</li></br>
+<br><li>GetAll: ```GET: /hang-tags```</li></br>
+<br><li>GetOne: ```GET: /hang-tags/:id```</li></br>
+<br><li>Delete: ```DELETE: /hang-tags/:id```</li></br>
 </ul>
