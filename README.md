@@ -76,7 +76,9 @@ cd teste_mais_envios
 Esse repositório clonado é a raíz dos nossos dois projetos, que foram adicionados através dos submódulos do git. Em outras palavras, agora é necessário "clonar" o restante do projeto utilizando os comandos abaixo:
 </p>
 
-```git submodule init && git submodule update```
+```
+ git submodule init && git submodule update
+```
 
 <h4>Executando</h4>
 <p align="justify">
