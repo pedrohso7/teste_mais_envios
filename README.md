@@ -64,6 +64,7 @@ O sistema foi distribuído utilizando o workflow padrão do rabbitQM, onde exist
 A API Rest desenvolvida exerce o papel de publisher para vários micro serviços mas, neste caso, só existe um, o processador de arquivos. A API publica os dados do arquivo enviado utilizando a fila "spreadsheet_exchange", que será consumida pelo micro serviço, o consumer. Este, por sua vez, recebe o arquivo e processa a planilha, retornando todas as etiquetas extraídas.
 
 ## ✦ Executando
+<h4>Configurando o repositório</h4>
 <p align="justify">
 Primeiro, é necessário que você clone o repositório e, em seguida, se certifique de estar na raíz do projeto:
 </p>
@@ -83,6 +84,7 @@ Em seguida:
 
 ```git submodule update```
 
+<h4>Executando</h4>
 <p align="justify">
 Caso nao tenha o Docker e o Docker Compose já instaládos:
 </p>
