@@ -1,4 +1,6 @@
-![poketroca_logo](https://github.com/pedrohso7/teste_mais_envios/assets/32853995/9bd8a03e-e7b3-4077-9040-14daa044eefa)
+<p align="middle">
+<img alt="teste banner" src="https://github.com/pedrohso7/teste_mais_envios/assets/32853995/9bd8a03e-e7b3-4077-9040-14daa044eefa" width="600"/>
+</p>
 
          
 <p align="center">
@@ -8,9 +10,9 @@
   &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-Visão Geral">Visão Geral</a>
   &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-poketroca-usecase-views">PokeTroca UseCase Views</a>
-  &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-Executando">Executando</a>
+  &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-Comece a Usar">Comece a Usar</a>
 </p>
 
 ## ✦ O projeto
@@ -56,7 +58,7 @@ O sistema foi distribuído utilizando o workflow padrão do rabbitQM, onde exist
 </p>
 
 <p align="middle">
-<img alt="RabbitMQ workflow" src="https://github.com/pedrohso7/teste_mais_envios/assets/32853995/4e1f7acc-d810-4522-a46f-28bb7a471a78" width="450"/>
+<img alt="RabbitMQ workflow" src="https://github.com/pedrohso7/teste_mais_envios/assets/32853995/4e1f7acc-d810-4522-a46f-28bb7a471a78" width="700"/>
 </p>
 
 A API Rest desenvolvida exerce o papel de publisher para vários micro serviços mas, neste caso, só existe um, o processador de arquivos. A API publica os dados do arquivo enviado utilizando a fila "spreadsheet_exchange", que será consumida pelo micro serviço, o consumer. Este, por sua vez, recebe o arquivo e processa a planilha, retornando todas as etiquetas extraídas.
@@ -90,7 +92,7 @@ docker-compose up
 <p align="justify">
 Aguarde a execução e, quando finalizada, o servidor estará ativo em "localhost:3000".
 </p>
-## ✦ Comece a usar
+## ✦ Comece a Usar
 
 <p align="justify">
 Para acessar a documentação do sistema, primeiro execute-o seguindo o tutorial de execução e clique <a href="http://localhost:3000/api">aqui</a> para o acesso ao Swagger
