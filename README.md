@@ -104,10 +104,10 @@ Os endpoints disponíveis são:
 </p>
 
 <ul>
-<br>Upload <pre>POST: /hang-tags/upload</pre></br>
-<br><li>Create: `POST: /hang-tags`</li></br>
-<br><li>Update: `PATCH: /hang-tags/:id`</li></br>
-<br><li>GetAll: `GET: /hang-tags`</li></br>
-<br><li>GetOne: `GET: /hang-tags/:id`</li></br>
-<br><li>Delete: `DELETE: /hang-tags/:id`</li></br>
+<br>Upload: <pre>POST: /hang-tags/upload</pre></br>
+<br><li>Create: <pre>POST: /hang-tags</pre></li></br>
+<br><li>Update: <pre>PATCH: /hang-tags/:id</pre></li></br>
+<br><li>GetAll: <pre>GET: /hang-tags</pre></li></br>
+<br><li>GetOne: <pre>GET: /hang-tags/:id</pre></li></br>
+<br><li>Delete: <pre>DELETE: /hang-tags/:id</pre></li></br>
 </ul>
