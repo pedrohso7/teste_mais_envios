@@ -113,7 +113,7 @@ Os endpoints disponíveis são:
 </p>
 
 <ul>
-<br>Upload: <pre>POST: /tags/upload</pre></br>
+<br>Upload: ```POST: /tags/upload```</br>
 <br><li>Create: <pre>POST: /tags</pre></li></br>
 <br><li>Update: <pre>PATCH: /tags/:id</pre></li></br>
 <br><li>GetAll: <pre>GET: /tags</pre></li></br>
