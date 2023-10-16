@@ -1,0 +1,37 @@
+version: '3'
+
+services:
+  rabbitmq:
+    image: rabbitmq:management
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    networks:
+      - my_network
+  api:
+    container_name: 'rest_api'
+    build:
+      context: ./backend_maisenvios
+    ports:
+      - "3000:3000"
+    depends_on:
+      - rabbitmq
+    links:
+      - rabbitmq
+    networks:
+      - my_network
+
+  microservice:
+    container_name: 'spreadsheet_processor'
+    build:
+      context: ./spreadsheet_processor
+    depends_on:
+      - rabbitmq
+    links:
+      - rabbitmq
+    networks:
+      - my_network
+
+networks:
+  my_network:
+    driver: bridge

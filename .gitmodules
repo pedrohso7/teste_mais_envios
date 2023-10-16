@@ -1,0 +1,6 @@
+[submodule "backend_maisenvios"]
+	path = backend_maisenvios
+	url = https://github.com/pedrohso7/backend_maisenvios.git
+[submodule "spreadsheet_processor"]
+	path = spreadsheet_processor
+	url = https://github.com/pedrohso7/spreadsheet_processor.git
