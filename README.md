@@ -8,11 +8,11 @@
   &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-Tecnologias">Tecnologias</a>
   &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-Visão Geral">Visão Geral</a>
+  <a href="#-Visão-Geral">Visão Geral</a>
   &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-Executando">Executando</a>
   &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-Comece a Usar">Comece a Usar</a>
+  <a href="#-Comece-a-Usar">Comece a Usar</a>
 </p>
 
 ## ✦ O projeto
@@ -104,11 +104,10 @@ Os endpoints disponíveis são:
 </p>
 
 <ul>
-<br><li>Upload
-         ```POST: /hang-tags/upload```</li></br>
-<br><li>Create: ```POST: /hang-tags```</li></br>
-<br><li>Update: ```PATCH: /hang-tags/:id```</li></br>
-<br><li>GetAll: ```GET: /hang-tags```</li></br>
-<br><li>GetOne: ```GET: /hang-tags/:id```</li></br>
-<br><li>Delete: ```DELETE: /hang-tags/:id```</li></br>
+<br><li>Upload `POST: /hang-tags/upload`</li></br>
+<br><li>Create: `POST: /hang-tags`</li></br>
+<br><li>Update: `PATCH: /hang-tags/:id`</li></br>
+<br><li>GetAll: `GET: /hang-tags`</li></br>
+<br><li>GetOne: `GET: /hang-tags/:id`</li></br>
+<br><li>Delete: `DELETE: /hang-tags/:id`</li></br>
 </ul>
