@@ -58,7 +58,7 @@ O sistema foi distribuído utilizando o workflow padrão do rabbitQM, onde exist
 </p>
 
 <p align="middle">
-<img alt="RabbitMQ workflow" src="https://github.com/pedrohso7/teste_mais_envios/assets/32853995/4e1f7acc-d810-4522-a46f-28bb7a471a78" width="700"/>
+<img alt="RabbitMQ workflow" src="https://github.com/pedrohso7/teste_mais_envios/assets/32853995/4e1f7acc-d810-4522-a46f-28bb7a471a78" width="800"/>
 </p>
 
 A API Rest desenvolvida exerce o papel de publisher para vários micro serviços mas, neste caso, só existe um, o processador de arquivos. A API publica os dados do arquivo enviado utilizando a fila "spreadsheet_exchange", que será consumida pelo micro serviço, o consumer. Este, por sua vez, recebe o arquivo e processa a planilha, retornando todas as etiquetas extraídas.
@@ -92,6 +92,7 @@ docker-compose up
 <p align="justify">
 Aguarde a execução e, quando finalizada, o servidor estará ativo em "localhost:3000".
 </p>
+
 ## ✦ Comece a Usar
 
 <p align="justify">
@@ -103,7 +104,8 @@ Os endpoints disponíveis são:
 </p>
 
 <ul>
-<br><li>Upload: ```POST: /hang-tags/upload```</li></br>
+<br><li>Upload
+         ```POST: /hang-tags/upload```</li></br>
 <br><li>Create: ```POST: /hang-tags```</li></br>
 <br><li>Update: ```PATCH: /hang-tags/:id```</li></br>
 <br><li>GetAll: ```GET: /hang-tags```</li></br>
