@@ -82,7 +82,7 @@ Caso nao tenha o Docker e o Docker Compose já instaládos:
 </ul>
 
 <p align="justify">
-Após a instalação das dependẽncias, execute o comando para executar o sistema
+Após a instalação das dependências, execute o comando abaixo para executar o sistema:
 </p>
 
 ```
