@@ -81,7 +81,7 @@ Esse repositório clonado é a raíz dos nossos dois projetos, que foram adicion
 ```
 
 <p align="justify">
-Caso o processo convencional não funciona e incorra em erros no projeto, tente deletar a pasta e cloná-la da seguinte forma:
+Caso os passos anteriores não funcionem e isso incorra em erros no projeto, tente deletar a pasta raiz do projeto e cloná-la da seguinte forma:
 </p>
 
 ```
@@ -90,7 +90,7 @@ git clone https://github.com/pedrohso7/teste_mais_envios —recurse-submodules
 
 <h4>Executando</h4>
 <p align="justify">
-Caso nao tenha o Docker e o Docker Compose já instaládos:
+Uma vez configurado o projeto, é possível executar usando o Docker e Docker Compose. Caso não tenha intaladas as ferramentas:
 </p>
 
 <ul>
