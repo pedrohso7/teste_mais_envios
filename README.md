@@ -78,7 +78,7 @@ Caso nao tenha o Docker e o Docker Compose já instaládos:
 
 <ul>
 <li>Acesse o link clicando <a href="https://docs.docker.com/engine/install/">aqui</a> para instalação do Docker.</li>
-<li>Acesse o link <a href="https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-20-04">aqui</a> para a instalação do docker compose.</li>
+<li>Acesse o link <a href="https://docs.docker.com/compose/install/">aqui</a> para a instalação do docker compose.</li>
 </ul>
 
 <p align="justify">
@@ -96,7 +96,7 @@ Aguarde a execução e, quando finalizada, o servidor estará ativo em "localhos
 ## ✦ Comece a Usar
 
 <p align="justify">
-Para acessar a documentação do sistema, primeiro execute-o seguindo o tutorial de execução e clique <a href="http://localhost:3000/api">aqui</a> para o acesso ao Swagger
+Para acessar a documentação do sistema, https://docs.docker.com/compose/install/primeiro execute-o seguindo o tutorial de execução e clique <a href="http://localhost:3000/api">aqui</a> para o acesso ao Swagger
 </p>
 
 <p align="justify">
